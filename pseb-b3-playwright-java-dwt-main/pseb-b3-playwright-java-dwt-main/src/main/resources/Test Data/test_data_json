@@ -1,0 +1,68 @@
+{
+  "Users": {
+    "username": "test123+1@gmail.com",
+    "password": "abcd@1234",
+    "invalidUser": "invalid@gmail.com",
+    "invalidPassword": "1nvalidP@word",
+    "EmptyEmail": "",
+    "EmptyPassword": "",
+    "UnRegEmail": "t+e+s+t+1+2+3@gmail.com",
+    "InvalidEmail": "abc1234gmail.com"
+  },
+  "RegisterData": {
+    "FirstName": "Test",
+    "LastName": "User",
+    "email": "PLACEHOLDER_FOR_GENERATED_EMAIL",
+    "Password": "Test@1234",
+    "ConfirmPassword": "Test@1234"
+  },
+  "Url": {
+    "register": "https://demowebshop.tricentis.com/register",
+    "dashboard": "https://demowebshop.tricentis.com/",
+    "login": "https://demowebshop.tricentis.com/login",
+    "registeredurl": "https://demowebshop.tricentis.com/registerresult/1"
+  },
+  "invalidPassword": {
+    "FirstName": "Test",
+    "LastName": "User",
+    "email": "PLACEHOLDER_FOR_GENERATED_EMAIL",
+    "Password": "Test@1234",
+    "ConfirmPassword": "Thja@1234"
+  },
+  "invalidEmailFormat": {
+    "FirstName": "Test",
+    "LastName": "User",
+    "email": "PLACEHOLDER_FOR_GENERATED_INVALID_EMAIL",
+    "Password": "Test@1234",
+    "ConfirmPassword": "Test@1234"
+  },
+  "Register": {
+    "firstName": "Dummy",
+    "lastName": "Tester",
+    "Email": "PLACEHOLDER_FOR_TIMESTAMP_EMAIL",
+    "Password": "abcd@1234",
+    "existingEmail": "test@gmail.com",
+    "shortpassword": "short",
+    "InvalidFirstName": "Dummy@123",
+    "InvalidLastName": "Tester!@#"
+  },
+  "billingAddressData": {
+    "firstName": "Maan",
+    "lastName": "Rider",
+    "email": "maan.rider@test.com",
+    "country": "Pakistan",
+    "state": "Other (Non US)",
+    "city": "Karachi",
+    "address1": "123 Street",
+    "zip": "74000",
+    "phone": "03001234567"
+  },
+  "creditCardDetails": {
+    "cardType": "Visa",
+    "holderName": "Maan Rider",
+    "cardNumber": "4111111111111111",
+    "expireMonth": "12",
+    "expireYear": "2030",
+    "cardCode": "123"
+  }
+}

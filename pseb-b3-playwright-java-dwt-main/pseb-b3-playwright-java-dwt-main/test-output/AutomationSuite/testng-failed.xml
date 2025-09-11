@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="LoginTests(failed)">
+    <classes>
+      <class name="Tests.Dashboard_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="setup"/>
+          <include name="TC_DASHBOARD_004_verifyWishlistCount"/>
+          <include name="LoginDetails"/>
+        </methods>
+      </class> <!-- Tests.Dashboard_Test -->
+      <class name="Tests.Login_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="TC_LOGIN_003_verifyLoginWithInvalidPassword"/>
+          <include name="setup"/>
+          <include name="TC_LOGIN_004_verifyLoginWithEmptyEmail"/>
+          <include name="TC_LOGIN_001_verifyLoginWithValidCredentials"/>
+          <include name="TC_LOGIN_002_verifyLoginFailsWithInvalidEmail"/>
+          <include name="TC_LOGIN_005_verifyLoginWithEmptyPassword"/>
+        </methods>
+      </class> <!-- Tests.Login_Test -->
+      <class name="Tests.ShoppingCart_Test">
+        <methods>
+          <include name="TC_ShoppingCart_002_verifyNavigationFromCartToCheckout"/>
+          <include name="TC_ShoppingCart_001_checkoutAfterAcceptingTerms"/>
+          <include name="LoginDetails"/>
+          <include name="TC_ShoppingCart_005_verifyCartShowsEmptyMessage"/>
+          <include name="TC_ShoppingCart_004_updateQuantityInCart"/>
+          <include name="TC_ShoppingCart_003_removeItemFromCart"/>
+        </methods>
+      </class> <!-- Tests.ShoppingCart_Test -->
+      <class name="Tests.Plp_Test">
+        <methods>
+          <include name="TC_PLP_004_verifyNotebooksCategory"/>
+          <include name="TC_PLP_005_verifyAccessoriesCategory"/>
+          <include name="TC_PLP_001_verifyBookCategory"/>
+          <include name="TC_PLP_003_verifyDesktopsCategory"/>
+          <include name="setUp"/>
+          <include name="TC_PLP_002_verifyComputersCategoryWithSubCategories"/>
+        </methods>
+      </class> <!-- Tests.Plp_Test -->
+      <class name="Tests.Checkout_Test">
+        <methods>
+          <include name="LoginDetails"/>
+          <include name="TC_CHECKOUT_003_verifyQuantityUpdateDuringCheckout"/>
+          <include name="TC_CHECKOUT_005_selectPaymentMethod"/>
+          <include name="TC_CHECKOUT_002_verifyCheckoutWithEmptyCart"/>
+        </methods>
+      </class> <!-- Tests.Checkout_Test -->
+      <class name="Tests.Wishlist_Test">
+        <methods>
+          <include name="TC_WISHLIST_002_RemoveItemFromWishlist"/>
+          <include name="TC_WISHLIST_001_WishlistLinkNavigation"/>
+          <include name="TC_WISHLIST_005_ViewWishlistItems"/>
+          <include name="LoginDetails"/>
+          <include name="TC_WISHLIST_004_ShareWishlistViaEmail"/>
+          <include name="TC_WISHLIST_003_RemoveItemFlow"/>
+        </methods>
+      </class> <!-- Tests.Wishlist_Test -->
+      <class name="Tests.Search_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="TC_SEARCH_003_checkSearchByClickingButton"/>
+          <include name="TC_SEARCH_005_verifySearchResultsForValidQuery"/>
+          <include name="setUp"/>
+          <include name="setup"/>
+          <include name="TC_SEARCH_004_checkSearchWithEnterKey"/>
+          <include name="TC_SEARCH_002_checkSearchInputFunctionality"/>
+        </methods>
+      </class> <!-- Tests.Search_Test -->
+      <class name="Tests.MyAccount_Test">
+        <methods>
+          <include name="teardown"/>
+          <include name="TC_MyAccount_005_verifyPDFInvoiceDownload"/>
+          <include name="TC_MyAccount_001_verifyOrdersPageTitle"/>
+          <include name="TC_MyAccount_004_verifyOrderDetailsRedirection"/>
+          <include name="setup"/>
+          <include name="TC_MyAccount_003_verifyOrderDetails"/>
+          <include name="LoginDetails"/>
+          <include name="TC_MyAccount_002_verifyNoOrdersMessageIsDisplayed"/>
+        </methods>
+      </class> <!-- Tests.MyAccount_Test -->
+      <class name="Tests.Register_Test">
+        <methods>
+          <include name="TC_REGISTER_002_verifyRegistrationWithEmptyFields"/>
+          <include name="teardown"/>
+          <include name="TC_REGISTER_004_verifyRegistrationWithInvalidEmailFormat"/>
+          <include name="TC_REGISTER_003_verifyRegistrationWithMismatchedPasswords"/>
+          <include name="TC_REGISTER_001_verifyValidRegistration"/>
+          <include name="setup"/>
+          <include name="TC_REGISTER_005_verifyRegistrationWithExistingEmail"/>
+        </methods>
+      </class> <!-- Tests.Register_Test -->
+    </classes>
+  </test> <!-- LoginTests(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->
