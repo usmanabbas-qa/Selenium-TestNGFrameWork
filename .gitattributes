@@ -1,0 +1,5 @@
+# Ignore auto-generated test reports and logs from language statistics
+test-output/* linguist-vendored
+target/* linguist-vendored
+*.html linguist-vendored
+*.log linguist-vendored
